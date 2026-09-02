@@ -3,6 +3,7 @@ name: Deploy MIRROR to GitHub Pages
 on:
   push:
     branches: ["main"]
+  create:
   workflow_dispatch:
 
 permissions:
