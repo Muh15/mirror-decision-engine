@@ -28,6 +28,26 @@
 @media(min-width:700px){.app{padding-top:28px}.decisions{grid-template-columns:repeat(4,1fr)}.map{height:350px}.hero{padding:34px}.hero p{font-size:15px}.metrics{grid-template-columns:repeat(4,1fr)}.metric.impact{grid-column:auto}.workspace-head{display:grid;grid-template-columns:1fr 220px;align-items:center}.run{margin-top:0}.simstate{padding-right:16px}}
 @media(max-width:600px){.badge{display:none}.tabs .tab{flex:none}.compare-grid{grid-template-columns:1fr}.hero h1{font-size:40px}.impact-row{grid-template-columns:1fr 1fr}.impact-item:last-child{grid-column:1/-1}}
 </style>
+
+<style>
+/* MIRROR_MOBILE_POLISH_V3 */
+@media (max-width:600px){
+  .workspace-head{padding:16px 14px 12px}
+  .run{padding:12px 14px;font-size:15px;border-radius:13px;min-height:52px}
+  .map{height:290px}
+  .map svg text{display:none!important}
+  .map-event{left:12px;right:auto;top:12px;max-width:calc(100% - 24px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .legend{left:10px;bottom:10px;max-width:calc(100% - 20px);gap:7px;padding:7px 8px}
+  .metrics{padding:10px;gap:7px}
+  .metric{padding:10px}
+}
+@media (max-width:380px){
+  .map{height:275px}
+  .run{font-size:14px}
+  .legend{font-size:8px}
+  .map-event{max-width:75vw}
+}
+</style>
 </head>
 <body>
 <div class="app">
